@@ -1,0 +1,165 @@
+/* Fontes */
+
+@font-face{
+    font-family: "pricedown";
+    src: url(../fonts/pricedown/pricedown\ bl.otf)
+    format("opentype");
+}
+
+/* Fontes */
+
+
+
+/* Body */
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/background-login.png);
+  }
+
+/* Body */
+
+
+
+/* Fontes Títulos */
+  
+.titulo{
+    font-family: "pricedown";
+    color: yellow;
+    font-size: 8rem;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.email{
+    font-family: "pricedown";
+    color: yellow;
+    font-size: 4rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding-right: 62%;
+}
+
+.senha{
+    font-family: "pricedown";
+    color: yellow;
+    font-size: 4rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding-right: 62%;
+}
+
+
+.manter{
+    font-family: "pricedown";
+    color: yellow;
+    font-size: 85%;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    display: inline;
+}
+
+.manter p{
+    margin-left: 50%;
+    padding-left: 50%;
+}
+
+.conta{
+    font-family: "pricedown";
+    color: yellow;
+    font-size: 0%;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.check{
+    font-family: "pricedown";
+    color: yellow;
+    font-size: 300%;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.form a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: normal;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.esqueci{
+    font-family: "pricedown";
+    font-size: 300%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+/* Fontes Títulos */
+
+
+
+/* Container/Box */
+
+.container{
+    background: rgba(0, 0, 0, 0.3);
+    width: 70rem;
+    height: 55rem;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+.box{
+    background: rgb(255, 255, 255);
+    margin-top: 50rem;
+    border-radius: 50px;
+  }
+
+  /* Container/Box */
+
+
+
+  /* Inputs */
+
+#inputemail{
+    width: 75%;
+    padding: 1.5%;
+    border-radius: 30px;
+    
+}
+
+#inputpassword{
+    width: 75%;
+    padding: 1.5%;
+    border-radius: 30px;
+}
+
+#inputsubmit{
+    width: 75%;
+    padding: 0%;
+    border-radius: 30px;
+    background-color: black;
+    font-family: "pricedown";
+    font-size: 380%;
+    color: yellow;
+    text-align: center;
+}
+
+.form input[type="checkbox"]{
+    transform: scale(200%);
+}
+
+input[type="checkbox"]{
+    border: 2px solid #000;
+    background-color: #EEE;
+}
+
+  /* Inputs */

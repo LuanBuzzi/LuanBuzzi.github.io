@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: "pricedown";
+    src: url(../fonts/pricedown/pricedown\ bl.otf)
+    format("opentype");
+}
+
+body{
+    background-image: url(../images/background-principal.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.parking-info{
+    background-color: rgba(255, 255, 255, 0.5) !important; /* Fundo semi-transparente para cada caixa */
+    border-radius: 8px;
+    margin-top: 1.3rem;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.parking-description{
+    text-align: justify;
+}
+
+.parking-info img{
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.parking-description{
+    max-width: 600px;
+}
+
+.c-item{
+    height: 40rem;
+  }
+  
+  .c-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(1);
+    border-radius: 40px;
+  }
+
+  .carousel-indicators{
+    top: 90%;
+}
+
+.titulo{
+    font-family: "pricedown";
+}
+
+.subtitulo{
+    font-family: 'Bebas Neue';
+    font-size: 1.3rem;
+}

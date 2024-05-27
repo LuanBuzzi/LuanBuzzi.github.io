@@ -1,0 +1,72 @@
+/* Fontes */
+
+@font-face{
+    font-family: "pricedown";
+    src: url(../fonts/pricedown/pricedown\ bl.otf)
+    format("opentype");
+}
+
+/* Fontes */
+
+body{
+    background-image: url(../images/background-principal.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titulo{
+    font-family: "pricedown";
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.card-text{
+    font-family: "pricedown";
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    
+}
+
+  .card{
+    margin-bottom: 20px;
+    border-radius: 50px !important;
+    
+  }
+
+  .card img{
+    width: 100%;
+    height: auto;
+    border-radius: 50px !important;
+  }
+
+  .card-body{
+    padding: 15px;
+  }
+
+  .reservar-btn{
+    font-family: "pricedown";
+    background-color: black;
+    color: white;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 4rem;
+    margin-left: 5rem;
+  }
+
+  .transparent-bg{
+    background-color: rgba(255, 255, 255, 0.2) !important; 
+  }

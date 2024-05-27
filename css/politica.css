@@ -1,0 +1,63 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face{
+    font-family: "pricedown";
+    src: url(../fonts/pricedown/pricedown\ bl.otf)
+    format("opentype");
+}
+
+@font-face{
+    font-family: "ahron";
+    src: url("../fonts/ahronbd.ttf")
+    format("truetype");
+}
+
+
+
+/* Fontes */
+
+
+
+/* Body */
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/background-politica.png);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+/* Body */
+
+/* Fontes Títulos */
+  
+.titulo{
+    font-family: "pricedown";
+    color: yellow;
+    font-size: 110px;
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.politica1{
+    font-family: 'Roboto', sans-serif;
+    color: yellow;
+    font-size: 40px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.politica2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}

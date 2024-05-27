@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: "pricedown";
+    src: url(../fonts/pricedown/pricedown\ bl.otf)
+    format("opentype");
+}
+
+body{
+    font-family: "pricedown";
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+form{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    display: flex;
+    align-items: center;
+}
+
+input,
+select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #45a049;
+}
+
+.info{
+    font-family: "pricedown";
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: inline;
+}
+
+.metodo{
+    font-family: "pricedown";
+    font-size: 2rem;
+}
+
+.pix{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+}
+
+input[type="radio"] {
+    padding-top: 100px;
+    vertical-align: middle;
+}
+
+.planoselecionado{
+    color: goldenrod;
+    font-family: "pricedown";
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: inline;
+}
+
+.valor{
+    color: green;
+    font-family: "pricedown";
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    display: inline;
+}

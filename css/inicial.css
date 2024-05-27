@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: "pricedown";
+    src: url(../fonts/pricedown/pricedown\ bl.otf)
+    format("opentype");
+}
+
+
+/* Fontes */
+
+/* body{
+
+    /* background-image: url(../images/background-principal.png);
+    background-attachment: fixed;
+    background-size: cover; */
+
+    .titulo{
+        font-family: "pricedown";
+        color: white;
+        font-size: 4rem;
+        text-align: center;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+    }
+    
+    .c-item{
+        height: 40rem;
+      }
+      
+      .c-img{
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.6);
+      }
+
+      .fonte-cap{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 8rem;
+        -webkit-text-stroke-width: 0.1px;
+        -webkit-text-stroke-color: black;
+      }
+    .map-container{
+        height: 40%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      
+        .map-container{
+            height: 40%;
+            margin-top: 1rem;
+            text-align: center;
+        }
+      }

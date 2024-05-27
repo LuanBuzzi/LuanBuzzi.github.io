@@ -1,0 +1,81 @@
+/* Fontes */
+
+@font-face{
+    font-family: "pricedown";
+    src: url(../fonts/pricedown/pricedown\ bl.otf)
+    format("opentype");
+}
+
+/* Fontes */
+
+
+.menu-item{
+    font-size: 100%;
+}
+
+.fonte-nav{
+    font-family: "pricedown";
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    font-size: 200%;
+}
+
+.nav-link{
+    white-space: nowrap;
+}
+
+.navbar-collapse{
+    justify-content: flex-start;
+}
+
+
+
+.active{
+    color: gold !important;
+}
+
+.icon{
+    height: 50%;
+    top: 0;
+    right: 0;
+}
+
+.dropdown-hover:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-item{
+    font-family: "pricedown";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 130%;
+}
+
+#logo{
+    width: 100%;
+    max-width: 200px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+@media (min-width: 1920px){
+    .fonte-nav {
+        font-size: 2.5rem;
+    }
+
+    .dropdown-item {
+        font-size: 2rem;
+    }
+
+    #logo {
+        max-width: 1000px;
+    }
+}
